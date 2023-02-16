@@ -1,6 +1,10 @@
 #include <stdio.h>
 /*
- * Output using put
+ * main - Entry point
+ *
+ * Description: 
+ *
+ * Return: Always 0
  */
 int main(void)
 {
