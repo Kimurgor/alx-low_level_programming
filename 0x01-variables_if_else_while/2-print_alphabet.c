@@ -1,20 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
- *
+ * main - print lowercase a-z, one character per line
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char low;
+    char alphabet;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
+    for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+    {
+        putchar(alphabet);
+        putchar('\n');
+    }
 
-	return (0);
-}
+    return (0);
+} 
