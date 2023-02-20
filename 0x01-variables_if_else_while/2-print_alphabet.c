@@ -1,18 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - print lowercase a-z, one character per line
- * Return: Always 0 (Success)
+ * main - Entry point
+ *
+ * Description: 'this program prints alphabets a to z'
+ *
+ * Return: 0 Always (Success)
  */
 int main(void)
 {
-    char alphabet;
-
-    for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-    {
-        putchar(alphabet);
-        putchar('\n');
-    }
-
-    return (0);
-} 
+	char alphabet = 'a';
+		while (alphabet <= 'z')
+		{
+			putchar(alphabet);
+			alphabet++;
+		}
+	return (0);
+}
