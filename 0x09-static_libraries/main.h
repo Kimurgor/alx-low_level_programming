@@ -1,12 +1,5 @@
-#ifndef MAIN__H
+#ifndef MAIN_H
 #define MAIN_H
-
-/*
- * File: main.h
- * Auth: Cyrus
- * Description: Header file containing the prototypes of all functions
- */
-
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
